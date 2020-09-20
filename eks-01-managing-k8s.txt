@@ -1,0 +1,26 @@
+## Prerequisites
+
+1. AWS CLI with Configured Credentials
+
+2. kubectl installed
+
+3. eksctl installed
+
+apt-get install -y kubectl
+ 2008  sudo apt-get install -y kubectl
+ 2009  clear
+ 2010  kubectl get pods
+ 2011  kubectl version
+ 2012  clear
+ 2013  kubectl 
+ 2014  clear
+ 2015  kubectl cluster-info
+ 2016  clear
+ 2017  histopry
+ 2018  history
+
+
+sudo apt-get update && sudo apt-get install -y apt-transport-https curl
+echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee /etc/apt/sources.list.d/kubernetes.list
+sudo apt-get update
+sudo apt-get install -y kubectl
